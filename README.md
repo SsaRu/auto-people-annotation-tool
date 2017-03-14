@@ -9,6 +9,8 @@ this code work on python 2.7
 
 if you want use google vision api, you should make project in google api console and install 2 kind of library
 
+![Google Vision API](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/lenna_test.png)
+
 #### 1-1. Make project in Google api
 
 follow this link : https://cloud.google.com/vision/docs/quickstart
