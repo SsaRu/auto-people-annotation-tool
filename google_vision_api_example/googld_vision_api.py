@@ -1,8 +1,15 @@
-'''
+# encoding=utf8
 
+import io
+from PIL import Image
+
+from google.cloud import vision
+
+'''
+this code work on python 2.7
 You need 3 installation
 
-1. google-vison-api for python
+1. google-vison-api for python 2.y
 2. gcloud-sdk
 
 and you should get auth from gcloud-sdk
@@ -22,19 +29,13 @@ https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login
 
 '''
 
-import io
-import os
-import time
-
-from google.cloud import vision
-
 """ Detects faces in an images"""
 
 vision_client = vision.Client()
 
 image_path = 'lena.jpg'
 
-with io.open(image_path) as image_file:
+with io.open(image_path, 'rb') as image_file:
     content = image_file.read()
 
 image = vision_client.image(content=content)
