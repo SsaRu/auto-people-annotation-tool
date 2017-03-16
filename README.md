@@ -9,6 +9,10 @@ this code work on python 2.7
 
 if you want use google vision api, you should make project in google api console and install 2 kind of library
 
+reference google_vision_api_example in this repository
+
+https://github.com/SsaRu/auto-people-annotation-tool/tree/master/google_vision_api_example
+
 ![Google Vision API](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/lenna_test_google.png)
 
 #### 1-1. Make project in Google api
@@ -34,5 +38,7 @@ if you want using microsoft Azure Face API, just you need httplib library on pyt
 installation httplib on python 2.7 -> pip install httplib2
 
 Reference azure_face_api_example in this repository
+
+https://github.com/SsaRu/auto-people-annotation-tool/tree/master/azure_face_api_example
 
 ![Microsoft Azure Face API](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/lenna_test_azure.png)
