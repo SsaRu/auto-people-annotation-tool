@@ -7,7 +7,7 @@ from google.cloud import vision
 
 vision_client = vision.Client()
 
-image_path = 'lena.jpg'
+image_path = '../lena.jpg'
 
 with io.open(image_path, 'rb') as image_file:
     content = image_file.read()
