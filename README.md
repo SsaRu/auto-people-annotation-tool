@@ -3,8 +3,6 @@ auto-people-annotation-tool make deeplearning training dataset about face using 
 
 this code work on python 2.7
 
-# pre-required
-
 ### 1. Google Vision API Tool
 
 if you want use google vision api, you should make project in google api console and install 2 kind of library
@@ -42,3 +40,17 @@ Reference azure_face_api_example in this repository
 https://github.com/SsaRu/auto-people-annotation-tool/tree/master/azure_face_api_example
 
 ![Microsoft Azure Face API](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/lenna_test_azure.png)
+
+### 3. Flow Chart
+
+![How to Work](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/flow%20chart.png)
+
+### 4. VOC fascal xml format
+
+it show voc fascal image & annotation xml and result
+
+![image](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/000005.jpg)
+
+![xml](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/annotation.png)
+
+![result](https://github.com/SsaRu/auto-people-annotation-tool/blob/master/readme/000005_result.png)
